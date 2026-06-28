@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import { Layout } from "@/components";
-import { NotFound } from "./pages";
+import { NotFound } from "../pages";
 import { appRoutes } from "@/constants/routes";
 
 const router = createBrowserRouter(
@@ -29,7 +29,7 @@ const router = createBrowserRouter(
   ],
   {
     basename: import.meta.env.BASE_URL,
-  }
+  },
 );
 
 export default router;
